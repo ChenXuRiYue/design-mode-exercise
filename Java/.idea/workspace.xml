@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b3eb246-e7c6-4b07-8194-4b80629d5dd5" name="Changes" comment="新增策略模式实现的评测策略类和上下文类&#10;&#10;- 添加 CommonJudge、IntervalJudge 和 SpecialJudge策略类实现&#10;- 实现 Context 类作为策略模式的上下文&#10;- 新增 JudgeConstants、JudgeResult 和 SubmitDetail 常量类&#10;- 添加 JudgeStrategy接口定义评测策略&#10;-通过 ExampleApplication 类展示策略模式的应用示例&#10;- 添加策略模式说明文档，阐述其概念、优缺点和适用场景" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2lv7EVN4ppxfjSHAIx5SQGfJJgL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.abstract_factory.ai_intergration.Application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Code/Ai-Integration&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/design-mode-exercise/behavor-mode/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\design-mode-exercise\creation-mode\src\abstract_factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.abstract_factory.ai_intergration.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory_method.gzhuoj.Application" />
+      <module name="creation-mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory_method.gzhuoj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="creation-mode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abstract_factory.ai_intergration.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstract_factory.ai_intergration.Application" />
+      <module name="creation-mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstract_factory.ai_intergration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.abstract_factory.ai_intergration.Application" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b3eb246-e7c6-4b07-8194-4b80629d5dd5" name="Changes" comment="" />
+      <created>1726048588496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726048588496</updated>
+      <workItem from="1726048589885" duration="2590000" />
+      <workItem from="1726069109562" duration="435000" />
+      <workItem from="1726069554003" duration="4389000" />
+      <workItem from="1726111331026" duration="7638000" />
+      <workItem from="1726410595492" duration="612000" />
+      <workItem from="1726416663717" duration="687000" />
+      <workItem from="1726417361876" duration="1148000" />
+      <workItem from="1726418525838" duration="4226000" />
+      <workItem from="1726459301651" duration="249000" />
+      <workItem from="1726459561584" duration="6208000" />
+      <workItem from="1726646136046" duration="2134000" />
+      <workItem from="1726661844459" duration="13000" />
+      <workItem from="1726661870049" duration="890000" />
+      <workItem from="1726663157068" duration="397000" />
+      <workItem from="1726663574169" duration="88000" />
+      <workItem from="1728012029689" duration="1213000" />
+      <workItem from="1728093720106" duration="1288000" />
+      <workItem from="1728137563087" duration="276000" />
+      <workItem from="1728137844096" duration="9679000" />
+      <workItem from="1728547551798" duration="2444000" />
+      <workItem from="1729130613604" duration="597000" />
+      <workItem from="1729173734125" duration="598000" />
+      <workItem from="1729343471606" duration="341000" />
+      <workItem from="1729343845769" duration="1310000" />
+    </task>
+    <task id="LOCAL-00001" summary="improve abstract factory design mode&#10;&#10;文档和示例代码添加抽象工厂模式实现，支持AI模型客户端跨平台应用，包括不同风格的产品（如Coze、OpenAi等）及其产品创建的工厂。">
+      <option name="closed" value="true" />
+      <created>1726460004998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726460004998</updated>
+    </task>
+    <task id="LOCAL-00002" summary="improve abstract factory design mode&#10;&#10;文档和示例代码添加抽象工厂模式实现，支持AI模型客户端跨平台应用，包括不同风格的产品（如Coze、OpenAi等）及其产品创建的工厂。">
+      <option name="closed" value="true" />
+      <created>1726460129418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726460129418</updated>
+    </task>
+    <task id="LOCAL-00003" summary="improve singleton&#10;&#10;文档更新和多个Singleton模式示例添加&#10;&#10;- 抽象工厂模式文档对比部分更新，明确工厂方法模式与抽象工厂模式的区别。&#10;- 新增Singleton模式下饿汉式和懒汉式两种实现方式的Java示例代码。&#10;- Singleton模式文档概述了模式的场景、实现方式及其思考点。">
+      <option name="closed" value="true" />
+      <created>1726476316677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726476316677</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增策略模式实现的评测策略类和上下文类&#10;&#10;- 添加 CommonJudge、IntervalJudge 和 SpecialJudge策略类实现&#10;- 实现 Context 类作为策略模式的上下文&#10;- 新增 JudgeConstants、JudgeResult 和 SubmitDetail 常量类&#10;- 添加 JudgeStrategy接口定义评测策略&#10;-通过 ExampleApplication 类展示策略模式的应用示例&#10;- 添加策略模式说明文档，阐述其概念、优缺点和适用场景">
+      <option name="closed" value="true" />
+      <created>1728144918278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728144918278</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="improve abstract factory design mode&#10;&#10;文档和示例代码添加抽象工厂模式实现，支持AI模型客户端跨平台应用，包括不同风格的产品（如Coze、OpenAi等）及其产品创建的工厂。" />
+    <MESSAGE value="improve singleton&#10;&#10;文档更新和多个Singleton模式示例添加&#10;&#10;- 抽象工厂模式文档对比部分更新，明确工厂方法模式与抽象工厂模式的区别。&#10;- 新增Singleton模式下饿汉式和懒汉式两种实现方式的Java示例代码。&#10;- Singleton模式文档概述了模式的场景、实现方式及其思考点。" />
+    <MESSAGE value="新增策略模式实现的评测策略类和上下文类&#10;&#10;- 添加 CommonJudge、IntervalJudge 和 SpecialJudge策略类实现&#10;- 实现 Context 类作为策略模式的上下文&#10;- 新增 JudgeConstants、JudgeResult 和 SubmitDetail 常量类&#10;- 添加 JudgeStrategy接口定义评测策略&#10;-通过 ExampleApplication 类展示策略模式的应用示例&#10;- 添加策略模式说明文档，阐述其概念、优缺点和适用场景" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增策略模式实现的评测策略类和上下文类&#10;&#10;- 添加 CommonJudge、IntervalJudge 和 SpecialJudge策略类实现&#10;- 实现 Context 类作为策略模式的上下文&#10;- 新增 JudgeConstants、JudgeResult 和 SubmitDetail 常量类&#10;- 添加 JudgeStrategy接口定义评测策略&#10;-通过 ExampleApplication 类展示策略模式的应用示例&#10;- 添加策略模式说明文档，阐述其概念、优缺点和适用场景" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/construction-mode/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavor-mode/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_mode_exercise$abstract_factory_ai_intergration_Application.ic" NAME="abstract_factory.ai_intergration.Application Coverage Results" MODIFIED="1726459411094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>abstract_factory.ai_intergration.*</FILTER>
+    </SUITE>
+  </component>
+</project>

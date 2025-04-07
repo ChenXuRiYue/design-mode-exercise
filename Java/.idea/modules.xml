@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/behavor-mode/behavor-mode.iml" filepath="$PROJECT_DIR$/behavor-mode/behavor-mode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/construction-mode/construction-mode.iml" filepath="$PROJECT_DIR$/construction-mode/construction-mode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creation-mode/creation-mode.iml" filepath="$PROJECT_DIR$/creation-mode/creation-mode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/design-mode-exercise.iml" filepath="$PROJECT_DIR$/.idea/design-mode-exercise.iml" />
+    </modules>
+  </component>
+</project>
